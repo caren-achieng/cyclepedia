@@ -58,19 +58,18 @@ const InfoContainer = styled.div`
       padding: 70px;
 `
 const Title = styled.h1`
-font-size: 60px;
+      font-size: 60px;
 `
 const Desc = styled.p`
-margin: 50px 0px;
-  font-size: 20px;
-  font-weight: 500;
-  letter-spacing: 3px;
-  
+      margin: 50px 0px;
+      font-size: 20px;
+      font-weight: 500;
+      letter-spacing: 3px;
 `
 const Button = styled.button`
-padding: 10px;
-  font-size: 20px;
-  background-color: transparent;
+    padding: 10px;
+    font-size: 20px;
+    background-color: transparent;
 `
 
 const Slider = () => {

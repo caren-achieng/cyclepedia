@@ -26,20 +26,20 @@ export const sliderItems = [
     }
 ];
 
-export const catergories = [
+export const categories = [
     {
         id: 1,
         img: "https://www.mvagusta.com/images/main/superveloce-xl.png",
-        title: "NUNUA YAKO",
+        title: "BIG BIKE",
     },
     {
         id: 2,
         img: "https://www.mvagusta.com/images/main/superveloce-xl.png",
-        title: "BEST DEALS MTAANI",
+        title: "LITTLE BIKE",
     },
     {
         id: 3,
         img: "https://www.mvagusta.com/images/main/superveloce-xl.png",
-        title: "POPULAR SALE",
+        title: "ANOTHER BIKE",
     }
 ];
