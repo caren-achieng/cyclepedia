@@ -1,18 +1,21 @@
 import styled from "styled-components"
-import {categories} from "../data";
-import * as PropTypes from "prop-types";
 
 const Container = styled.div`
   flex: 1;
-  margin: 3px;
+  margin: 20px;
   height: 70vh;
   position: relative;
+  background-color: black;
+  border-radius: 25px;
 `
+
 const Image = styled.img`
   width: 100%;
   height: 100%;
   object-fit: cover;
+  opacity: 0.4;
 `
+
 const Info = styled.div`
   position: absolute;
   top: 0;
@@ -23,25 +26,25 @@ const Info = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  //background-color: black;
-  border-radius: 25px ;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  //opacity: 0.5;
 `
+
 const Title = styled.h1`
   color: white;
   margin-bottom: 20px;
+  font-size: 30px;
 `
+
 const Button = styled.button`
-border: none;
-  padding: 10px;
+  border: none;
+  font-size: 20px;
+  padding: 20px;
   background-color: white;
   color: gray;
   cursor: pointer;
   font-weight: 600;
+  border-radius: 25px;
 `
 
-Image.propTypes = {};
 const CategoryItem = ({item}) => {
     return (
         <Container>
