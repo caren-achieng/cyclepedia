@@ -5,6 +5,8 @@ import Products from "../components/Products";
 import Newsletter from "../components/Newsletter";
 import Footer from "../components/Footer";
 
+const Container = styled.div``
+
 const Title = styled.h1`
       margin: 20px;
 `
